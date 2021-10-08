@@ -53,6 +53,24 @@ df_MEI.drop('Year',axis='columns', inplace=True)
 df_MEI
 #len(df_MEI)
 
+
+class Barang:
+  def __init__(self, nama, jumlah, harga, jenis):
+    self.nama = nama
+    self.jumlah = jumlah
+    self.harga = harga
+    self.jenis = jenis
+
+  def myfunc(self):
+    print("Jual barang " + self.nama)
+  
+  def info(self):
+    print(f"nama: {self.nama}, jumlah: {self.jumlah}, harga: {self.harga}, jenis: {self.jenis}")
+
+barang1 = Barang("sepatu",  1, "450.000", "reebok")
+
+barang1.info()
+
 """Flattening the MEI V2 dataset and save flattened dataset"""
 
 df_MEI_flat = df_MEI.to_numpy().flatten()
