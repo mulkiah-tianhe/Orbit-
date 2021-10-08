@@ -18,8 +18,6 @@ import numpy as np
 import warnings
 warnings.filterwarnings('ignore')
  
-    
- # Nambahin komen
 from google.colab import drive
 drive.mount("/content/gdrive")
 
@@ -32,7 +30,8 @@ IODM_Raw = pd.read_csv(r'/content/gdrive/MyDrive/Project/Ocean Index vs Local Cl
 IODM_Raw
 
 """Drop years column and starting flattening process"""
-
+#Disini saya nambahin komen keterangan 
+#Kodingan DiBawah ini Untuk Kodingan Import Dataset
 #Importing the dataset 
 df_IODM = pd.read_csv(r'/content/gdrive/MyDrive/Project/Ocean Index vs Local Climate/Dataset IODM 2.csv', error_bad_lines=False, sep=';',index_col= False )
 df_IODM.drop('Years',axis='columns', inplace=True)
