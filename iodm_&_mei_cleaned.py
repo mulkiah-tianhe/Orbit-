@@ -79,3 +79,6 @@ import numpy as np
 
 output_array = np.array(df_MEI_flat)
 np.savetxt("/content/gdrive/MyDrive/Project/Cleaned/df_MEI_cleaned.csv", output_array, delimiter=";")
+
+#Hallo Coach, Adel izin menambahkan komen di sini
+#Semangat Coach Mulki, kelas Tianhe sangat luar biasa
