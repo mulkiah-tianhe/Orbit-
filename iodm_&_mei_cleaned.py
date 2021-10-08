@@ -8,7 +8,7 @@ Original file is located at
 
 # Flattening IODM and MEI V2 and save dataset to **Cleaned** folder
 """
-
+# Tes comment dari fiqri
 # Commented out IPython magic to ensure Python compatibility.
 import pandas as pd
 import matplotlib.pyplot as plt
