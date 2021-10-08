@@ -18,6 +18,8 @@ import numpy as np
 import warnings
 warnings.filterwarnings('ignore')
  
+    
+ # Nambahin komen
 from google.colab import drive
 drive.mount("/content/gdrive")
 
